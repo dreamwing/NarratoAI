@@ -87,6 +87,21 @@
     # text_openai_base_url = "https://api.openai.com/v1"
 
 ##########################################
+# 🎵 Music Generation (Suno AI)
+##########################################
+
+[suno]
+    # Suno AI API Configuration
+    # Currently supports: "openai-hk" (Unofficial relay)
+    provider = "openai-hk"
+    
+    # API Key (Get from your provider)
+    api_key = ""
+
+    # Base URL (Optional, defaults to provider specific URL)
+    # base_url = "https://api.openai-hk.com/sunoapi"
+
+##########################################
 # TTS (文本转语音) 配置
 ##########################################
 
